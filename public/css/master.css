@@ -1,0 +1,65 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background: rgba(199, 229, 241, 1);
+}
+
+body {
+	padding-bottom: 80px;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	background: rgba(44, 44, 47, 0.7);
+}
+
+#directory {
+	display: block;
+	position: relative;
+	top: 40px;
+	min-width: 700px;
+	width: 60%;
+	max-width: 1200px;
+	margin: auto auto 40px;
+	background: #FFFFFF;
+	border: 5px solid rgba(30, 30, 90, 0.25);
+	box-shadow: 0px 2px 4px rgba(30, 30, 30, 0.5);
+}
+
+th.id { width: 2%; }
+th.name { width: 20%; }
+th.title { width: 20%; }
+th.location { width: 20%; }
+th.email { width: 25%; }
+th.phone { width: 10%; }
+th.edit { width: 3%; }
+
+.loading {
+	text-align: center;
+	margin: 10px 0;
+}
